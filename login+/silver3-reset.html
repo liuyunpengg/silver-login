@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>silverSoul</title>
+
+		<link rel="shortcut icon" href="img/icon.jpg" />
+
+		<link rel="stylesheet" type="text/css" href="css/silver.css" />
+
+		<style>
+			body,div,ul,li,a {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			
+			body {
+				background: url("img/bg.jpg")  no-repeat;
+					background-size: 100%;
+				font-size: 14px;
+			}
+			
+			#box {
+				width: 300px;
+				height: 280px;
+				opacity: 0.8;
+				background-color: #E4BBDB;
+				position: relative;
+				margin-top: 200px;
+				margin-left: 80px;
+				border: 1px solid #ccc;
+				
+			}
+			#box-con {
+				font-size: 16px;
+				margin: 50px 50px;
+				
+			}
+			
+			#box-con li {
+				margin: 10px auto;
+			}
+		
+			 #reset{
+				
+				width: 150px;
+				height: 28px;
+				background: #C1E0F2;
+				border-radius: 5px;
+				border: 1px solid #ccc;
+				line-height: 28px;
+				text-align: center;
+				font-size: 18px;
+				color: #00f;
+				margin-left: 30px;
+				margin-top: 0px;
+				
+			}
+			input{
+				height: 30px;
+				margin-left: 10px;
+			}
+			p{
+				font-size: 12px;
+				text-align: right;
+			}
+			a{
+				color: #f00;
+				text-decoration: none;
+			}
+			a:hover{
+				color: blue;
+				
+			}
+			#footer{
+				width: 300px;
+				position: absolute;
+				bottom: 20px;
+				left: 400px;
+				color: #888;
+			}
+			h2{
+				text-align: center;
+				margin-top: 40px;
+			}
+		</style>
+		<script type="text/javascript">
+			function wel(){
+				location.href="silver3-wel.html";
+			}
+			
+		</script>
+
+	</head>
+
+	<body>
+
+		<div id="box">
+
+			<h2>重置密码</h2>
+
+			<div id="box-con">
+
+				<ul>
+					<li><label>邮箱</label><input type="text" name="username" id="username" value="" /></li>
+					
+					<li ><input type="button" name="" id="reset" value="发送验证到邮箱" onclick="wel()"/></li>
+						
+				
+				</ul>
+
+			</div>
+			
+		</div>
+		<div id="footer">
+			<p>没有版权    @meiyoubanquan</p>
+			
+		</div>
+
+	</body>
+
+</html>

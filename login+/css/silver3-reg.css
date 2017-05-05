@@ -1,0 +1,77 @@
+
+/*注册页面*/
+	body,div,ul,li,a {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			
+			body {
+				background: url("../img/bg.jpg")  no-repeat;
+				background-size: 100%;	
+				font-size: 14px;
+			}
+			
+			#box {
+				width: 300px;
+				height: 380px;
+				opacity: 0.8;
+				background-color: #E4BBDB;
+				position: relative;
+				margin-top: 200px;
+				margin-left: 80px;
+				border: 1px solid #ccc;
+				
+			}
+			#box-con {
+				font-size: 16px;
+				margin: 50px 25px;
+				
+			}
+			
+			#box-con li {
+				margin: 10px auto;
+			}
+		
+			 #reg-btn{
+				
+				width: 70px;
+				height: 28px;
+				background: #C1E0F2;
+				border-radius: 5px;
+				border: 1px solid #ccc;
+				line-height: 28px;
+				text-align: center;
+				font-size: 18px;
+				color: #00f;
+				margin-left: 80px;
+				margin-top: 20px;
+				
+			}
+			input{
+				height: 30px;
+				margin-left: 10px;
+			}
+			p{
+				font-size: 12px;
+				text-align: right;
+			}
+			a{
+				color: #f00;
+				text-decoration: none;
+			}
+			a:hover{
+				color: blue;
+				
+			}
+			#footer{
+				width: 300px;
+				position: absolute;
+				bottom: 20px;
+				left: 400px;
+				color: #888;
+			}
+			h2{
+				text-align: center;
+				margin-top: 40px;
+			}

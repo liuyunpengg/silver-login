@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>tab</title>
+		<style type="text/css">
+			*{
+			padding:0;
+			margin:0;
+			list-style: none;
+		}
+		#box{
+			width:398px;
+			height:300px;
+			border:1px solid #999;
+			margin: 20px;
+			overflow: hidden;
+			
+		}
+		
+		#tit{
+			height: 29px;
+			width: 401px;
+			position: relative;
+			left: -1px;
+		}
+		#tit ul{
+			width:400px;
+			
+		}
+		#tit ul li{
+			float:left;
+			width: 98px;
+			height: 28px;
+			background: #999;
+			border-bottom: 1px solid #f00;
+			padding: 0 1px;
+			line-height: 28px;
+			text-align: center;
+			
+		}
+		#tit ul .select{
+			background: #fff;
+			padding: 0;
+			color: red;
+			border-left: 1px solid #999;
+			border-right: 1px solid #999;
+			border-bottom: none;
+			
+		}
+		.same{
+			margin: 30px;
+			
+		}
+		
+		
+		</style>
+		
+	</head>
+	<body>
+		
+		
+		
+		<div id="box">
+			<div id="tit">
+				<ul>
+					<li class="select">regist</li>
+					<li>login</li>
+					<li>jiang</li>
+					<li>you</li>
+				</ul>
+			</div>
+			
+			<div id="reg" class="same">
+				<ul >
+					<li><label>账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;户</label><input type="text" name="username" id="username" placeholder="手机/邮箱" /></li>
+					<li><label>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</label><input type="text" name="password" id="password" placeholder="不少于6位" /></li>
+					<li><label>确认密码</label><input type="text" name="checkpassword" id="checkpassword" placeholder="再输入一次密码" /></li>
+					<li><input type="button" name="" id="reg-btn" value="注册" onclick="registin()" onmousemove="mouseon()" onmouseout="mouseout()" /></li>
+					<li>
+						<p>已有账号？
+							<a href="silver3-log.html">直接登陆</a>
+						</p>
+					</li>
+
+				</ul>
+				
+			</div>
+			
+			<div id="log" class="same" style="display: none">
+
+				<ul>
+					<li><label>账户</label><input type="text" name="username" id="username" placeholder="手机/邮箱" /></li>
+					<li><label>密码</label><input type="text" name="password" id="password" placeholder="不小于6位" /></li>
+					
+					<li><p><a href="silver3-reset.html">忘记密码？</a></p></li>
+					<li ><input type="button" name="" id="log-btn" value="登陆" onclick="loginin()" onmousemove="mouseon()" onmouseout="mouseout()"  /></li>
+						
+				<li><p>没有账号？<a href="silver3-reg.html">注册一个</a></p></li>
+				</ul>
+
+			</div>
+			
+		</div>
+		
+		<script type="text/javascript">
+			
+			
+			
+			
+			
+			
+			
+			
+			function calculate(){
+				
+				var arr= [1,2,3,4,5,6];
+				for(var i=0; i<6;i++){
+		//			alert(arr[i]);
+				
+				}
+				
+			}
+			calculate();
+		</script>
+	</body>
+</html>
